@@ -1,0 +1,25 @@
+# Compiled C++ files
+*.exe
+*.o
+*.obj
+*.out
+*.a
+*.dll
+
+# Build folders
+build/
+bin/
+debug/
+release/
+
+# VS Code local settings
+.vscode/
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+
+# Operating system files
+.DS_Store
+Thumbs.db
