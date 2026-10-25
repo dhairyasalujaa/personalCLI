@@ -9,7 +9,7 @@ void commands(const string &cmd)
     if (cmd == "help")
     {
         cout << '\n';
-        cout << "Available commands: help, about, credits,calc, version, exit\n";
+        cout << "Available commands: help, about, credits, calc, version, typetest, exit\n";
     }
     else if (cmd == "about")
     {
@@ -39,6 +39,10 @@ void commands(const string &cmd)
     else if (cmd == "passgen")
     {
         passgen();
+    }
+    else if (cmd == "typetest")
+    {
+        typing();
     }
     else
     {

@@ -1,11 +1,14 @@
 #include <iostream>
 #include <vector>
+#include <cstdlib>
+#include <ctime>
 #include "commands.h"
 using namespace std;
 
 // main
 int main()
 {
+    srand(time(nullptr));
     welcome();
     string cmd;
     do
